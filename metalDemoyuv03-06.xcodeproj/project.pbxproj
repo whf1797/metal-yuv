@@ -15,6 +15,7 @@
 		E20C0C1E22300CBD0043F2F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C0C1D22300CBD0043F2F3 /* main.m */; };
 		E20C0C2822300CBD0043F2F3 /* metalDemoyuv03_06Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C0C2722300CBD0043F2F3 /* metalDemoyuv03_06Tests.m */; };
 		E20C0C3322300CBD0043F2F3 /* metalDemoyuv03_06UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C0C3222300CBD0043F2F3 /* metalDemoyuv03_06UITests.m */; };
+		E20C0C4122300CD80043F2F3 /* shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = E20C0C4022300CD80043F2F3 /* shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E20C0C2E22300CBD0043F2F3 /* metalDemoyuv03-06UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "metalDemoyuv03-06UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20C0C3222300CBD0043F2F3 /* metalDemoyuv03_06UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = metalDemoyuv03_06UITests.m; sourceTree = "<group>"; };
 		E20C0C3422300CBD0043F2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20C0C4022300CD80043F2F3 /* shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = shader.metal; sourceTree = "<group>"; };
+		E20C0C4222300CEA0043F2F3 /* WFType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFType.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E20C0C0F22300CBC0043F2F3 /* AppDelegate.m */,
 				E20C0C1122300CBC0043F2F3 /* ViewController.h */,
 				E20C0C1222300CBC0043F2F3 /* ViewController.m */,
+				E20C0C4022300CD80043F2F3 /* shader.metal */,
+				E20C0C4222300CEA0043F2F3 /* WFType.h */,
 				E20C0C1422300CBC0043F2F3 /* Main.storyboard */,
 				E20C0C1722300CBD0043F2F3 /* Assets.xcassets */,
 				E20C0C1922300CBD0043F2F3 /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20C0C4122300CD80043F2F3 /* shader.metal in Sources */,
 				E20C0C1322300CBC0043F2F3 /* ViewController.m in Sources */,
 				E20C0C1E22300CBD0043F2F3 /* main.m in Sources */,
 				E20C0C1022300CBC0043F2F3 /* AppDelegate.m in Sources */,
@@ -442,7 +448,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "whf.metalDemoyuv03-06";
+				PRODUCT_BUNDLE_IDENTIFIER = whf.whf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,7 +465,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "whf.metalDemoyuv03-06";
+				PRODUCT_BUNDLE_IDENTIFIER = whf.whf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
